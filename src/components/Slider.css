@@ -1,0 +1,93 @@
+.slider-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow-container {
+    width: 50px;
+    height: 50px;
+    background-color: #C2BFBE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.arr-left {
+    position: absolute;
+    left: 10px;
+}
+
+.arr-right {
+    position: absolute;
+    right: 10px;
+}
+
+.wrapper-slider {
+    height: 100%;
+    display: flex;
+    transition: 0.5s;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-container {
+    height: 100%;
+    flex: 1;
+}
+
+.info-container {
+    flex: 1;
+    padding: 50px;
+}
+
+.img-slide {
+    height: 85%;
+    margin-left: 75px;
+}
+
+.title-slide {
+    font-size: 70px;
+}
+
+.desc-slide {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.btn-slide {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-slide:hover {
+    background-color: black;
+}
+
+.link-shopnow {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-slide:hover .link-shopnow {
+    color: white;
+}
