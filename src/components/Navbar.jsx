@@ -8,7 +8,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
 
-                    <Link to="/" className="navbar-logo" onClick={() => window.scrollTo(0, 0)}>SHOES<i className="fab fa-typo3" /></Link>
+                    <Link to="/" className="navbar-logo" onClick={() => window.scrollTo(0, 0)}>ESHOES<i className="fab fa-typo3" /></Link>
 
                     <ul className="nav-menu">
                         <li className="nav-item">
